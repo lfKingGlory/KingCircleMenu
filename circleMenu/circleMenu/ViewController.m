@@ -78,6 +78,7 @@
     self.beginPoint = [[touches anyObject] locationInView:self.view];
 }
 
+// 核心代码
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
     CGPoint orginlPoint = self.menu.center;
